@@ -1,0 +1,13 @@
+VDMUTILS.LIB is a library of interface routines that permit OS/2 API calls
+to be made from DOS programs running in VDM sessions under OS/2. These
+do not, by and large, work in VMB sessions and none work under real DOS.
+
+Supported API's include those for EA support, event semaphores, mutex
+semaphores, window title management, session termination and timeslice
+releasing.
+
+The routines can be called from C/C++, Pascal, FORTRAN, COBOL or any compiler
+language that supports the Pascal calling convention. Header files for C/C++
+are included, with support for Watcom's #pragma aux for inlining.
+
+Freeware, with full source code.
